@@ -10,7 +10,7 @@ You are organizing a learning workspace rooted at a single directory. This works
 - Numbers increase sequentially: `demo1`, `demo2`, `demo3`, etc.
 
 ### Root-Level Documentation
-Maintain a single concise `ROADMAP.md` file at the workspace root that:
+Maintain a single concise `README.md` file at the workspace root that:
 - Lists available demos in order
 - Describes each demo's focus and dependencies
 - Provides a quick-start path for new members
@@ -32,6 +32,6 @@ Inside every demo folder, include a `README.md` (typically 200-400 words) with t
 ## Core Principles
 
 1. **Incremental Complexity**: Each demo beyond the first must build directly on the previous one, adding measurable complexity
-2. **Consistent Documentation**: Always maintain both ROADMAP.md and per-demo README.md files
+2. **Consistent Documentation**: Always maintain both README.md and per-demo README.md files
 3. **Structure Enforcement**: Always enforce this structure, naming, and documentation cadence when generating or reviewing demos
 4. **Adaptation**: If a user request conflicts with this structure, suggest how to adapt it while maintaining the incremental learning path
