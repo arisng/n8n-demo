@@ -51,12 +51,14 @@ This workspace walks through a four-part learning arc that turns a brand-new use
 - **Focus & Outcomes**: Add external task runners, AI/LLM/MCP integrations, monitoring hooks, and collaboration workflows; bundle reusable templates and cost-model callouts.
 - **Depends On**: `demo3`
 - **Grounding Sources**:
+  - [n8n "Workflow as Code" with AI Agents](https://www.youtube.com/watch?v=PwKepQJOHAs) — video tutorial on using an AI agent and a custom MCP server to generate n8n workflows from text prompts.
   - [Task runner configuration](https://docs.n8n.io/hosting/configuration/task-runners/) — broker settings, auth tokens, runner images.
   - [Northflank architecture & pricing guide](https://northflank.com/blog/how-to-self-host-n8n-setup-architecture-and-pricing-guide) — managed Postgres/Redis patterns, cost baselines, worker deployment steps.
 - **Grounding Tasks**:
-  1. Stand up external runners referencing the doc’s environment variables and document broker auth handshake.
-  2. Prototype at least one AI or MCP integration sourced from the official advanced-AI docs and record prerequisites.
-  3. Summarize cost benchmarks (VPS vs managed platform) with citations to inform decision-making in the README.
+  1. Prototype a "Workflow as Code" generator using an AI agent and an n8n MCP server to auto-generate a workflow from a text prompt, based on the video tutorial.
+  2. Stand up external runners referencing the doc’s environment variables and document broker auth handshake.
+  3. Prototype at least one AI or MCP integration sourced from the official advanced-AI docs and record prerequisites.
+  4. Summarize cost benchmarks (VPS vs managed platform) with citations to inform decision-making in the README.
 
 ## How to Use This Roadmap
 
